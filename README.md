@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Merch Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Created by Noah Lundquist and Harold Mesa in November of 2022
 
-## Available Scripts
+## Links
 
-In the project directory, you can run:
+* [Repository](https://github.com/nalundquist/merch-site)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Component Diagram](./src/img/merchsitediagram.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A React-based website selling merch for Feral Gazelle, famed indie-noise-crust-folk duo.  Built as an experiment in utilizing a redux reducer to handle state changes.  Only has Create functionality at this point but RUD could be easily built out from this point.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Post objects to later be sold
+* Not copyright infringing
+* Utilizes Redux for scalability
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Built in VS Code (v.1.70.1) using the following languages:
+	* Javascript
+	* React
+	* CSS
+	* JSX
+	* HTML
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tested in Latest Google Chrome build
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Download [Git Bash](https://git-scm.com/downloads)
+* Input the following into Git Bash to clone this repository onto your computer:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+		>git clone https://github.com/nalundquist/merch-site
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Enter the cloned project folder "merch-site" and type:
 
-## Learn More
+		>npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* After such you can type:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+		>npm run start
 
-### Code Splitting
+* To host the site on your machine at localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Known Bugs
 
-### Analyzing the Bundle Size
+None at this point
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licensed under [GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
